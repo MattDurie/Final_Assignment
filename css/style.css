@@ -1,0 +1,134 @@
+/*
+Colours
+#24CC8A - Blueish green
+#23D63E - Light Green
+#62BF29 - Green
+#CCD623 - Yellow
+#40380A - Dark
+*/
+
+html{
+    background-color: #40380A;
+    font-family: 'Lato', "Arial", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: "Droid Serif", "Times New Roman", serif;
+}
+h1{
+    color: #40380A;
+}
+#bootstrap-override nav{
+    background-color: #CCD623;
+    color: #40380A;
+}
+
+.wrapper{
+    background-color: #40380A;
+}
+
+.masthead{
+    background-color: #62BF29;
+    padding-left: 2rem;
+}
+
+.description {
+    background-color: #23D63E;
+    color: #40380A;
+    margin: 0 1rem 0 1rem;
+}
+
+#bootstrap-override li {
+    float: none;
+    margin: 0;
+}
+
+#bootstrap-override li a{
+    color: #40380A;
+}
+
+#bootstrap-override button {
+    border: 1px solid #62BF29;
+}
+
+.jumbotron{
+    background-color: #CCD623;
+    margin: 0 1rem 1rem 1rem;
+    color: #40380A;
+}
+
+.jumbotron a{
+    background-color: #23D63E;
+    color: #40380A;
+}
+
+.card{
+    background-color: #23D63E;
+    color: #40380A;
+}
+.carddeck1 .card:nth-child(2),
+.carddeck2 .card:nth-child(odd){
+    background-color: #CCD623;
+}
+
+#bootstrap-override .carddeck2{
+    margin-top: 1rem;
+}
+
+#bootstrap-override .img-responsive{
+    width: 80%;
+    margin: auto;
+}
+footer{
+    background-color: #23D63E;
+    padding-left: 1rem;
+    margin: 0 1rem 0 1rem;
+}
+
+footer p{
+    color: #40380A;
+    
+}
+
+.helppage{
+    margin-top: 1rem;
+}
+.icon{
+    padding: 0.5rem;
+    font-size: 20px;
+    color: black;
+}
+
+.memory{
+    font-size: 10px;
+}
+
+form{
+    background-color: #CCD623;
+    margin: 0 1rem 0 1rem;
+    padding-bottom: 1rem;
+    border: 1px solid #CCC;
+}
+
+#bootstrap-override form .btn {
+    background-color: #23D63E;
+    color: #40380A;
+}
+label,
+legend{
+    color: #40380A;
+}
+
+@media screen and (min-width: 34rem) {
+    
+    /* -- aligns list items horizontally in tablet view -- */
+    #bootstrap-override li {
+        float: left;
+        margin: 0 0 0 1rem;
+    }
+    
+}
+
